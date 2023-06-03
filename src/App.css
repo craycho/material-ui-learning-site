@@ -1,0 +1,25 @@
+.icon {
+  margin-right: 20px;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.cardGrid {
+  padding: 20px 0;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardMedia {
+  padding-top: 56.25%; /* Aspect ratio 16:9 (9/16 = 56.25), % se odnosi na width parenta */
+}
+
+.cardContent {
+  flex-grow: 1;
+}
